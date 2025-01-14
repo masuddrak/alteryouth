@@ -1,0 +1,10 @@
+.banner{
+   
+    background: 
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), /* Color overlay */
+    url('../../../public/images/hero_pc.jpg'); 
+    background-size: cover; /* Scale the image to cover the entire area */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-position: center; 
+    height: 80vh;
+}
