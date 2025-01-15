@@ -8,7 +8,10 @@ export default function Home() {
     <>
       <div>
         <Banner></Banner>
-        <Scholarships></Scholarships>
+        <div className="mx-4 md:mx-0">
+
+          <Scholarships></Scholarships>
+        </div>
       </div>
     </>
   );

@@ -14,9 +14,9 @@ const JoinForm = () => {
     };
 
     return (
-        <div className="bg-white p-3 shadow-lg w-full xl:w-4/6 rounded-md ">
-            <h3>
-                Join the <span>#alteryouthrevolution</span>
+        <div className="bg-white  mx-4 md:mx-0 p-3 shadow-lg w-full xl:w-4/6 rounded-md ">
+            <h3 className="text-xl py-3">
+                Join the <span className="text-baseBg">#alteryouthrevolution</span>
             </h3>
             <form onSubmit={handleSubmit} className="flex flex-col gap-3">
                 <input

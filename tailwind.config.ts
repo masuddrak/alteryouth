@@ -9,6 +9,10 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ["Montserrat", "sans-serif"],
+        serif: ["Montserrat", "serif"],
+      },
       colors: {
         baseBg: "#1DC468",
         background: "hsl(var(--background))",
