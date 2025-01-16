@@ -9,9 +9,9 @@ import app_school from "../../public/images/app_school.png"
 import AppCard from './AppCard'
 const Scholarships = () => {
     return (
-        <article className='my-80 md:mt-0 pt-10 w-full'>
+        <article className='mt-80 md:mt-0 py-10 w-full'>
             <SectionHeader title={"The Uber for Scholarships"} description={"A platform connecting the world with financially struggling students in Government Primary Schools of Bangladesh"} />
-            <div className='flex justify-center mt-5 mb-8'>
+            <div className='flex justify-center mb-8'>
                 <div className='flex gap-4'>
                     <Image src={playstoreImage} alt='playstore_small' width={100}></Image>
                     <Image src={appleStoreImage} alt='playstore_small' width={100}></Image>

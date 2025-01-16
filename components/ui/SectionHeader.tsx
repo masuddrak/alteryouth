@@ -5,11 +5,11 @@ interface SectionHeaderProps {
 }
 const SectionHeader: React.FC<SectionHeaderProps> = ({ title, description }) => {
     return (
-        <div className='text-center space-y-2'>
+        <div className='text-center space-y-2 mb-5'>
             <h3 className=' text-2xl font-bold lg:text-3xl'>{title}
             </h3>
             <div className='flex justify-center '>
-                <p className='md:w-[550px]'>{description}</p>
+                <p className={` ${description.length > 200 ? "md:w-[700px]" : "md:w-[550px]"}`}>{description}</p>
             </div>
 
         </div>
