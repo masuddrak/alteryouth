@@ -9,7 +9,6 @@ const JoinForm = () => {
     const [phoneValue, setPhoneValue] = useState<string | undefined>(""); // State for PhoneInput value
     const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
         event.preventDefault();
-        console.log("Phone Value:", phoneValue); // Logs the phone input value
         // Add further logic to handle form submission
     };
 
