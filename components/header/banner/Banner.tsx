@@ -18,7 +18,7 @@ export const Banner = () => {
                         </p>
                         <p>Schools throughout Bangladesh</p>
                     </div>
-                    <div className='flex justify-end absolute bottom-24 right-0 left-0 md:bottom-0 w-full md:relative '>
+                    <div className='flex justify-end absolute -bottom-16 right-0 left-0 md:bottom-0 w-full md:relative '>
                         <JoinForm></JoinForm>
                     </div>
                 </div>

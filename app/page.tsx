@@ -1,5 +1,6 @@
 // import Image from "next/image";
 
+import ComunityImpact from "@/components/comunityImpact/ComunityImpact";
 import { Banner } from "@/components/header/banner/Banner";
 import ScholarshipCommunity from "@/components/ScholarshipCommunity/ScholarshipCommunity";
 import Scholarships from "@/components/Scholarships/Scholarships";
@@ -14,7 +15,7 @@ export default function Home() {
           <Scholarships></Scholarships>
           <ScholarshipCommunity></ScholarshipCommunity>
         </div>
-
+        <ComunityImpact></ComunityImpact>
       </div>
     </>
   );
