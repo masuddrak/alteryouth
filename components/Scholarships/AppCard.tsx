@@ -7,9 +7,9 @@ interface AppCardProps {
 }
 const AppCard: React.FC<AppCardProps> = ({ image, title, description }) => {
     return (
-        <div className='w-[340px] md:w-[360px] lg:w-[340px]   mx-auto'>
+        <div className='w-[300px] md:w-[360px] lg:w-[340px]   mx-auto'>
             <div className='w-full mx-auto md:w-[200px]'>
-                <Image src={image} alt='app_graduation' width={400} height={400} className='w-full h-full' />
+                <Image src={image} alt='app_graduation' width={400} height={400} className='w-full     h-full ' />
             </div>
             <div className='text-center'>
                 <h3 className='text-lg font-bold pt-4 pb-2'>{title}</h3>

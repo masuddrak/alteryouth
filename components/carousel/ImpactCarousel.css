@@ -1,0 +1,9 @@
+
+
+button:has(.lucide-arrow-right) {
+   right: 10%;
+ 
+}
+button:has(.lucide-arrow-left) {
+   left: 10%;
+}
