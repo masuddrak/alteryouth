@@ -1,8 +1,8 @@
 import React from 'react'
-import SectionHeader from '../ui/SectionHeader'
+import SectionHeader from '../../ui/SectionHeader'
 import ScholarshipCard from './ScholarshipCard'
-import data from "../../public/data/leaderboard.json"
-import { Button } from '../ui/button'
+import data from "../../../public/data/leaderboard.json"
+import { Button } from '../../ui/button'
 const ScholarshipCommunity = () => {
     return (
         <main className='py-10'>

@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react'
-import usImage from "../../public/icons/us.svg"
+import usImage from "../../../public/icons/us.svg"
 interface ScholarshipCardProps { key: string; scholarship: { name: string; country_code: string; invite_code: string; message: string; count: number; started_at: string; invited_by: string; student_imgs: string[]; }; }
 const ScholarshipCard: React.FC<ScholarshipCardProps> = ({ scholarship }) => {
     const { name, invite_code, count, student_imgs } = scholarship

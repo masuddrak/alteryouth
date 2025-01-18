@@ -1,11 +1,11 @@
 import React from 'react'
-import SectionHeader from '../ui/SectionHeader'
+import SectionHeader from '../../ui/SectionHeader'
 import Image from 'next/image'
-import playstoreImage from "../../public/icons/playstore_small.svg"
-import appleStoreImage from "../../public/icons/appstore_small.svg"
-import app_graduation from "../../public/images/app_graduation.png"
-import app_scholarship from "../../public/images/app_scholarship.jpg"
-import app_school from "../../public/images/app_school.png"
+import playstoreImage from "../../../public/icons/playstore_small.svg"
+import appleStoreImage from "../../../public/icons/appstore_small.svg"
+import app_graduation from "../../../public/images/app_graduation.png"
+import app_scholarship from "../../../public/images/app_scholarship.jpg"
+import app_school from "../../../public/images/app_school.png"
 import AppCard from './AppCard'
 const Scholarships = () => {
     return (

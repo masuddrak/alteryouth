@@ -1,6 +1,6 @@
 import React from 'react'
-import SectionHeader from '../ui/SectionHeader'
-import ImpactCarousel from '../carousel/ImpactCarousel'
+import SectionHeader from '../../ui/SectionHeader'
+import ImpactCarousel from '../../carousel/ImpactCarousel'
 const ComunityImpact = () => {
     return (
         <main className='py-10'>
@@ -11,7 +11,7 @@ using that phone, to start receiving their childs scholarships directly, every m
                 </div>
             </header>
             <article className=' carousel'>
-                <ImpactCarousel></ImpactCarousel>
+                <ImpactCarousel schoolImages={[]} slider={"comunitySlider"}></ImpactCarousel>
             </article>
         </main>
     )

@@ -1,0 +1,87 @@
+
+
+.schoolSlider button:has(.lucide-arrow-right) {
+    right: 48%;
+    margin-top: 204px;
+background-color: #1dc468 ;
+color: white;
+  
+ }
+ .schoolSlider button:has(.lucide-arrow-left) {
+    left: 48%;
+    margin-top: 204px;
+    background-color: #1dc468 ;
+    color: white;
+  
+ }
+
+
+
+
+
+ @media (min-width: 1300px)and (max-width: 1700px){
+   .schoolSlider button:has(.lucide-arrow-right) {
+      right: 45%;
+      margin-top: 204px;
+  background-color: #1dc468 ;
+  color: white;
+    
+   }
+   .schoolSlider button:has(.lucide-arrow-left) {
+      left: 45%;
+      margin-top: 204px;
+      background-color: #1dc468 ;
+      color: white;
+    
+   }
+ }
+
+ @media (min-width: 1024px)and (max-width: 1300px){
+   .schoolSlider button:has(.lucide-arrow-right) {
+      right: 46%;
+      margin-top: 190px;
+  background-color: #1dc468 ;
+  color: white;
+    
+   }
+   .schoolSlider button:has(.lucide-arrow-left) {
+      left: 46%;
+      margin-top: 190px;
+      background-color: #1dc468 ;
+      color: white;
+    
+   }
+ }
+ @media (max-width: 1024px){
+   .schoolSlider button:has(.lucide-arrow-right) {
+      right: 42%;
+      margin-top: 180px;
+  background-color: #1dc468 ;
+  color: white;
+    
+   }
+   .schoolSlider button:has(.lucide-arrow-left) {
+      left: 42%;
+      margin-top: 180px;
+      background-color: #1dc468 ;
+      color: white;
+    
+   }
+ }
+
+ @media (max-width: 500px){
+   .schoolSlider button:has(.lucide-arrow-right) {
+      right: 40%;
+      margin-top: 150px;
+  background-color: #1dc468 ;
+  color: white;
+    
+   }
+   .schoolSlider button:has(.lucide-arrow-left) {
+      left: 40%;
+      margin-top: 150px;
+      background-color: #1dc468 ;
+      color: white;
+    
+   }
+ }

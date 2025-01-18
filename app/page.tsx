@@ -1,9 +1,10 @@
 // import Image from "next/image";
 
-import ComunityImpact from "@/components/comunityImpact/ComunityImpact";
-import { Banner } from "@/components/header/banner/Banner";
-import ScholarshipCommunity from "@/components/ScholarshipCommunity/ScholarshipCommunity";
-import Scholarships from "@/components/Scholarships/Scholarships";
+import ComunityImpact from "@/components/landinPage/comunityImpact/ComunityImpact";
+import { Banner } from "@/components/landinPage/banner/Banner";
+import ScholarshipCommunity from "@/components/landinPage/ScholarshipCommunity/ScholarshipCommunity";
+import Scholarships from "@/components/landinPage/Scholarships/Scholarships";
+import PrimarySchools from "@/components/landinPage/primaryschools/PrimarySchools";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
           <ScholarshipCommunity></ScholarshipCommunity>
         </div>
         <ComunityImpact></ComunityImpact>
+        <PrimarySchools></PrimarySchools>
       </div>
     </>
   );
