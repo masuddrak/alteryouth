@@ -17,7 +17,7 @@ export const Association = () => {
           widControle=""
         ></SectionHeader>
       </header>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 container mx-auto mt-14">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 container mx-auto mt-10  lg:mt-14">
         <AssociationCard
           image={associationImage1}
           title="Asia Pacific SDG Enterprise Award"
