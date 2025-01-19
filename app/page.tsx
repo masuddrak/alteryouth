@@ -7,6 +7,7 @@ import Scholarships from "@/components/landinPage/Scholarships/Scholarships";
 import PrimarySchools from "@/components/landinPage/primaryschools/PrimarySchools";
 import ScholarshipEligibility from "@/components/landinPage/scholarshipEligibility/ScholarshipEligibility";
 import IntroApp from "@/components/sheard/IntroApp";
+import { Association } from "@/components/landinPage/association/Association ";
 
 export default function Home() {
   return (
@@ -22,7 +23,9 @@ export default function Home() {
         <ScholarshipEligibility></ScholarshipEligibility>
         <div className="mx-4 md:mx-0">
           <IntroApp></IntroApp>
+          <Association></Association>
         </div>
+
         <PrimarySchools></PrimarySchools>
       </div>
     </>
