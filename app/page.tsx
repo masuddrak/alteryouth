@@ -6,6 +6,7 @@ import ScholarshipCommunity from "@/components/landinPage/ScholarshipCommunity/S
 import Scholarships from "@/components/landinPage/Scholarships/Scholarships";
 import PrimarySchools from "@/components/landinPage/primaryschools/PrimarySchools";
 import ScholarshipEligibility from "@/components/landinPage/scholarshipEligibility/ScholarshipEligibility";
+import IntroApp from "@/components/sheard/IntroApp";
 
 export default function Home() {
   return (
@@ -19,6 +20,9 @@ export default function Home() {
         <ComunityImpact></ComunityImpact>
         <PrimarySchools></PrimarySchools>
         <ScholarshipEligibility></ScholarshipEligibility>
+        <div className="mx-4 md:mx-0">
+          <IntroApp></IntroApp>
+        </div>
         <PrimarySchools></PrimarySchools>
       </div>
     </>
