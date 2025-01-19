@@ -1,7 +1,6 @@
 import React from "react";
 import AssociationCard from "./AssociationCard";
 import SectionHeader from "@/components/ui/SectionHeader";
-// import Google from "@/public/icons/Google";
 import associationImage1 from "../../../public/images/association-image.png";
 import associationImage2 from "../../../public/images/expo.png";
 
